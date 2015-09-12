@@ -1,0 +1,30 @@
+{
+    "name"        : "mickaelandrieu/jarvis-symfony-edition",
+    "type"        : "framework",
+    "description" : "A Symfony flavored edition of Jarvis micro framework",
+    "keywords"    : ["framework"],
+    "license"     : "MIT",
+    "authors"     : [
+        {
+            "name"  : "Mickaël Andrieu",
+            "email" : "andrieu.travail@gmail.com"
+        }
+    ],
+    "require": {
+       "eric-chau/jarvis": "dev-master",
+       "eric-chau/debug-skill": "dev-master",
+       "mickaelandrieu/doctrineorm-skill": "dev-master",
+       "mickaelandrieu/twig-skill": "dev-master",
+       "symfony/console": "~2.7"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "4.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "JSE": "src/",
+            "JSE\\Entity": "src/entities",
+            "JSE\\Command": "src/commands"
+        }
+    }
+}

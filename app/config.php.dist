@@ -1,0 +1,19 @@
+<?php
+
+const DOCTRINE_CONFIG = [
+    'db' => [
+        'dbname' => 'backbee',
+        'user' => 'root',
+        'password' => 'A1nges6!',
+        'host' => 'localhost',
+        'driver' => 'pdo_mysql',
+    ],
+    'orm' => [
+        'debug' => false,
+        'entity_path' => __DIR__.'/../src/entities'
+    ]
+];
+
+const TWIG_CONFIG = [
+    'templates_path' => __DIR__.'/../views'
+];
