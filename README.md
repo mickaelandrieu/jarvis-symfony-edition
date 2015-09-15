@@ -7,7 +7,7 @@ The Jarvis Symfony Edition is configured this way:
 
 * Application code is stored in ``/src`` folder;
 * Public assets (*available from outside*) have to be put inside ``web`` folder;
-* Application configuration is available inside ``/app/config.php``
+* Application configuration is available inside ``/app/config.php``;
 * Templates can be found in ``/src/views`` folder;
 * Commands can be found in ``/src/commands`` folder;
 
