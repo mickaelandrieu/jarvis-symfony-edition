@@ -15,5 +15,7 @@ const DOCTRINE_CONFIG = [
 ];
 
 const TWIG_CONFIG = [
-    'templates_path' => __DIR__.'/../views'
+    'twig' => [
+        'templates_path' => __DIR__.'/../views'
+    ]
 ];
