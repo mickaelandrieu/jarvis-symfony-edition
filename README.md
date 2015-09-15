@@ -1,4 +1,4 @@
-# Symfony Standard Edition
+# Jarvis Symfony Edition
 Welcome to the Jarvis Symfony Edition - a fully-functional Jarvis application that you can use as the skeleton for your web applications.
 
 ## What's inside?
