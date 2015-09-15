@@ -1,5 +1,6 @@
 <?php
 
-$app['router']->addRoute('get', '/', function () {
-	return $this->twig->render('demo/index.twig', ['world' => 'World']);		
+var_dump(get_class($app->twig));
+$app['router']->addRoute('get', '/', function ($app) {
+    return $app->twig->render('demo/index.twig', ['world' => 'World']);
 });
