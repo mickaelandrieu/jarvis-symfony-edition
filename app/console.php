@@ -6,4 +6,5 @@ use Symfony\Component\Console\Application;
 
 $console = new Application('Jarvis - Symfony Flavored Edition', '0.1');
 
-return $console;
+
+return $console->run();
